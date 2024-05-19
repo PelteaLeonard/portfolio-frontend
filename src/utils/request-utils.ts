@@ -10,7 +10,6 @@ class RequestUtils {
   static post = async (uri: string, data?: object) => {
     const requestInit: RequestInit = {
       method: "POST",
-      credentials: "include",
     };
 
     if (data !== undefined) {
