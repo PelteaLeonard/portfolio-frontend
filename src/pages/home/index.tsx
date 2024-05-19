@@ -1,8 +1,8 @@
-import About from "./about";
-import Contact from "./contact";
-import Experience from "./experience";
-import Projects from "./projects";
-import Socials from "./socials";
+import About from "../../components/home/about";
+import Socials from "../../components/home/socials";
+import Contact from "../../components/home/contact";
+import Projects from "../../components/home/projects";
+import Experience from "../../components/home/experience";
 import { InnerContainer, MainContainer } from "./styles";
 
 function Home() {
@@ -10,10 +10,10 @@ function Home() {
     <MainContainer>
       <InnerContainer>
         <About />
-        <Experience/>
-        <Projects/>
-        <Contact/>
-        <Socials/>
+        <Experience />
+        <Projects />
+        <Contact />
+        <Socials />
       </InnerContainer>
     </MainContainer>
   );

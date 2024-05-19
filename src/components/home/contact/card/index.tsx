@@ -10,7 +10,7 @@ import {
   Paragraph,
 } from "./styles";
 
-function Card() {
+function ContactCard() {
   return (
     <MainContainer>
       <ImageContainer>
@@ -30,4 +30,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default ContactCard;

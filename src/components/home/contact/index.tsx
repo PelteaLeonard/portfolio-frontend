@@ -1,6 +1,12 @@
-import Card from "./card";
-import Form from "./form";
-import { Title, Section, TitleWrapper, MainContainer, InnerContainer } from "./styles";
+import ContactCard from "./card";
+import ContactForm from "./form";
+import {
+  Title,
+  Section,
+  TitleWrapper,
+  MainContainer,
+  InnerContainer,
+} from "./styles";
 
 function Contact() {
   return (
@@ -10,8 +16,8 @@ function Contact() {
           <Title>04.Contact me</Title>
         </TitleWrapper>
         <InnerContainer>
-          <Card />
-          <Form />
+          <ContactCard />
+          <ContactForm />
         </InnerContainer>
       </MainContainer>
     </Section>

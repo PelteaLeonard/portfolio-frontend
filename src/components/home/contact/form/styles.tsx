@@ -1,7 +1,7 @@
-import { Button, TextField } from "@mui/material";
 import { styled } from "@mui/material/styles";
+import { Button, TextField } from "@mui/material";
 
-export const Container = styled("form")(({theme}) => ({
+export const Form = styled("form")(({ theme }) => ({
   width: "700px",
   padding: "30px",
   border: "2px solid #ff4c29",
@@ -15,7 +15,7 @@ export const Container = styled("form")(({theme}) => ({
   },
 }));
 
-export const FieldsContainer = styled("div")(({theme}) => ({
+export const FieldsContainer = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
   gap: "20px",
@@ -44,6 +44,7 @@ export const TextAreaField = styled(InputField)({
   flex: "1",
   "& textarea": {
     color: "#fff",
+    padding: "0"
   },
 });
 
@@ -51,7 +52,7 @@ export const Wrapper = styled("div")({
   display: "flex",
 });
 
-export const SubmitButton = styled(Button)(({theme}) => ({
+export const SubmitButton = styled(Button)(({ theme }) => ({
   padding: "8px 32px",
   color: "#fff",
   borderBottom: "1px solid #ff4c29",
