@@ -137,8 +137,8 @@ function Projects() {
         <Card
           projectName="Calculator"
           projectImage={calculatorImage}
-          gitHubUrl="https://github.com/PelteaLeonard/online-store"
-          liveSite="https://peltealeonard.github.io/online-store/"
+          gitHubUrl="https://github.com/PelteaLeonard/Calculator"
+          liveSite="https://calculator-sigma-blue.vercel.app/"
           icons={[
             // {
             //   title: "Typescript",
